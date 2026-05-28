@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "home": {
+      "title": "Wagner Feedmill – Feed Mills, Silo Plants & Individual Machines | Made in Germany",
+      "description": "International planning and delivery of feed mills, silo plants and individual machines. Capacities 0.5–100 t/h. Industry & agriculture. Request consultation now."
+    },
+    "products": {
+      "title": "Products – Feed Mills, Silo Plants, Pellet Presses | Wagner Feedmill",
+      "description": "Discover our complete product portfolio: silo plants, hammer mills, pellet presses, extruders, control systems and more. Capacities up to 100 t/h."
+    },
+    "planning": {
+      "title": "Planning & Engineering – CAD Design | Wagner Feedmill",
+      "description": "Individual CAD planning, concept development and international delivery of feed mills and silo plants."
+    },
+    "references": {
+      "title": "References Worldwide – Wagner Feedmill",
+      "description": "Successful projects in over 50 countries. Feed mills and silo plants for industry and agriculture worldwide."
+    },
+    "contact": {
+      "title": "Contact – Wagner Feedmill & Silo Plants GmbH | Lastrup, Germany",
+      "description": "Contact us: Haßkamp 7, 49688 Lastrup. Tel: +49 4471 70 16 568. International offices in Kazakhstan, Poland, Romania, Bulgaria and UAE."
+    },
+    "downloads": {
+      "title": "Downloads – Data Sheets & Brochures | Wagner Feedmill",
+      "description": "Product data sheets, brochures and certificates for download."
+    },
+    "career": {
+      "title": "Careers – Jobs at Wagner Feedmill | Lastrup",
+      "description": "Join our team. Open positions and speculative applications welcome."
+    },
+    "imprint": {
+      "title": "Imprint | Wagner Feedmill",
+      "description": "Imprint of Wagner Feedmill & Silo Plants GmbH."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Wagner Feedmill",
+      "description": "Privacy policy of Wagner Feedmill & Silo Plants GmbH."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "planning": "Planning & Engineering",
+    "products": "Products",
+    "references": "References",
+    "contact": "Contact",
+    "downloads": "Downloads",
+    "career": "Careers",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "title": "Planning and delivery of feed mills, silo plants and individual machines",
+    "subtitle": "Made in Germany — Deployed worldwide",
+    "cta_primary": "Schedule consultation",
+    "cta_secondary": "View products"
+  },
+  "trust": {
+    "years_value": "30+",
+    "years": "Years of experience",
+    "countries_value": "50+",
+    "countries": "Countries worldwide",
+    "capacity_value": "100",
+    "capacity": "t/h capacity",
+    "origin_value": "✓",
+    "origin": "Made in Germany"
+  },
+  "about": {
+    "title": "About Wagner Feedmill",
+    "text": "Wagner Feedmill is a specialist in the development, production and installation of feed manufacturing plants. State-of-the-art CAD design, qualified staff and powerful production facilities guarantee the highest quality. Our solutions serve industry (20–100 t/h), agriculture (0.5–20 t/h), as well as premix and grain handling sectors.",
+    "cta": "Learn more about us"
+  },
+  "products_section": {
+    "title": "Our Products & Services",
+    "learn_more": "Learn more"
+  },
+  "products": {
+    "annahme-reinigung": {
+      "title": "Intake & Cleaning Systems",
+      "description": "Cleaning systems for removing foreign bodies from bulk materials. Reliable preparation before further processing.",
+      "long": "Our intake and cleaning systems reliably remove foreign bodies from bulk materials and ensure consistent raw material quality for your feed production."
+    },
+    "siloanlagen": {
+      "title": "Silo Plants & Grain Dryers",
+      "description": "Dryers for grain, corn and rice with long service life and uniform drying process.",
+      "long": "Silo plants and grain dryers from Wagner Feedmill offer long service life, uniform drying and secure storage for grain, corn and rice."
+    },
+    "foerdertechnik": {
+      "title": "Conveying Technology",
+      "description": "Drag chain conveyors and bucket elevators for horizontal and vertical bulk transport.",
+      "long": "With drag chain conveyors and bucket elevators we implement efficient horizontal and vertical transport of bulk materials in your plant."
+    },
+    "mahl-misch": {
+      "title": "Grinding & Mixing Plants",
+      "description": "Hammer mills and horizontal mixers with mixing accuracy up to 1:100,000.",
+      "long": "Hammer mills for grain and granulates plus horizontal mixers with 1:100,000 mixing accuracy for highest product quality."
+    },
+    "premix": {
+      "title": "Premix Plants",
+      "description": "Dosing of micro components with precise scale accuracy.",
+      "long": "Premix plants dose micro components with highest scale accuracy for concentrates and pre-mixes."
+    },
+    "pelletierung": {
+      "title": "Pelleting Systems",
+      "description": "Pellet presses from 200 kg/h to over 45 t/h from meal mixtures.",
+      "long": "Pellet presses from 200 kg/h to ≥ 45 t/h convert meal mixtures into high-quality pellets for industry and agriculture."
+    },
+    "extrusion": {
+      "title": "Extrusion",
+      "description": "Extruders for converting grain feed into pet and fish feed.",
+      "long": "Extruders convert grain feed into specialized pet and fish feed with defined structure and quality."
+    },
+    "steuerung": {
+      "title": "Control Systems",
+      "description": "Full automation, remote control and redundant backup server.",
+      "long": "Control systems with full automation, remote control and second backup server for maximum operational reliability."
+    },
+    "futterwagen": {
+      "title": "Feed Wagons & Mobile Plants",
+      "description": "Tractor-driven grinding and mixing plants directly in the store.",
+      "long": "Mobile grinding and mixing plants and feed wagons enable flexible tractor-driven processing directly in storage."
+    },
+    "silos": {
+      "title": "Silos",
+      "description": "Storage of products before further processing in robust silo systems.",
+      "long": "Silos for secure storage of raw materials and intermediate products before further processing in your plant."
+    },
+    "absackanlagen": {
+      "title": "Bagging Plants",
+      "description": "Bagging of 1–50 kg sacks, up to 600 bags per hour.",
+      "long": "Bagging plants for 1–50 kg bags with capacities up to 600 bags per hour for efficient end packaging."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Behind every project stands an experienced team of engineers, planners and specialists.",
+    "members": [
+      { "name": "Hans Wagner", "position": "Management", "bio": "Over 30 years of experience in feed mill technology." },
+      { "name": "Michael Schmidt", "position": "Project Management / Engineering", "bio": "Specialist in CAD planning and international projects." },
+      { "name": "Anna Müller", "position": "International Sales", "bio": "Contact for markets in Europe and Asia." },
+      { "name": "Thomas Becker", "position": "Production & Quality", "bio": "Responsible for manufacturing and quality assurance." },
+      { "name": "Lisa Hoffmann", "position": "Service & Commissioning", "bio": "On-site support worldwide for assembly and training." }
+    ]
+  },
+  "references_section": {
+    "title": "References worldwide",
+    "view_all": "View all references",
+    "items": [
+      { "country": "Germany", "name": "Industrial feed mill", "type": "40 t/h", "imageAlt": "Reference project Germany feed mill" },
+      { "country": "Kazakhstan", "name": "Silo plant & dryer", "type": "Grain handling", "imageAlt": "Reference project Kazakhstan silo plant" },
+      { "country": "Poland", "name": "Agricultural plant", "type": "8 t/h", "imageAlt": "Reference project Poland feed plant" }
+    ]
+  },
+  "cta_banner": {
+    "title": "Ready for your next project?",
+    "subtitle": "Talk to our experts — free and without obligation.",
+    "button": "Schedule consultation now"
+  },
+  "footer": {
+    "about": "Wagner Feedmill & Silo Plants GmbH — specialist for feed mills, silo plants and individual machines. Made in Germany, deployed worldwide.",
+    "headquarters": "Headquarters DE",
+    "international": "International locations",
+    "copyright": "© {year} Wagner Feedmill & Silo Plants GmbH. All rights reserved.",
+    "locations": {
+      "kazakhstan": { "country": "KAZAKHSTAN", "company": "TOO Techagrokomplekt", "city": "Astana", "phone": "+7 701 305 5504", "email": "techagro@inbox.ru" },
+      "belarus": { "country": "BELARUS", "company": "Advisence", "city": "Minsk", "phone": "+375 29 633 21 04", "email": "wagner_feedmill@mail.ru" },
+      "poland": { "country": "POLAND", "company": "RUTHENIA ALBA Sp. z o.o.", "city": "Warsaw", "phone": "+48 571 513 741", "email": "contact@ruthenia-alba.com" },
+      "romania": { "country": "ROMANIA", "company": "Smart Agro Grain", "city": "Timis", "phone": "+40 738 136 171", "email": "ro@wagner-feedmill.de" },
+      "bulgaria": { "country": "BULGARIA", "company": "Farm Solution", "city": "Sofia", "phone": "+359 897 80 48 80", "email": "contact@wagner-feedmill.de" },
+      "uae": { "country": "UAE", "company": "Commerce Impulse", "city": "Sharjah", "phone": "+971 50 132 1815", "email": "contact@wagner-feedmill.de" }
+    }
+  },
+  "cookie": {
+    "text": "This website uses cookies to provide you with the best possible experience. For more information, see our privacy policy.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "breadcrumb": { "home": "Home" },
+  "planning_page": {
+    "title": "Planning & Engineering",
+    "hero_title": "From idea to completed plant",
+    "intro": "With state-of-the-art CAD design, individual planning and international delivery, we accompany your project from the first consultation to commissioning — and beyond.",
+    "steps": [
+      { "title": "Needs analysis & consultation", "desc": "Joint clarification of your requirements and capacities." },
+      { "title": "CAD planning & concept", "desc": "Detailed 3D planning and layout of your plant." },
+      { "title": "Quotation", "desc": "Transparent offer with clear scope of services." },
+      { "title": "Production & QA", "desc": "Manufacturing in Germany with strict quality assurance." },
+      { "title": "Delivery & assembly", "desc": "Worldwide delivery and on-site assembly." },
+      { "title": "Commissioning & training", "desc": "Training your team by our specialists." },
+      { "title": "Maintenance & service", "desc": "Long-term support and spare parts." }
+    ],
+    "segments": {
+      "industry": { "title": "Industry", "capacity": "Capacity 20–100 t/h" },
+      "agriculture": { "title": "Agriculture", "capacity": "Capacity 0.5–20 t/h" },
+      "premix": { "title": "Premix", "capacity": "Concentrates and pre-mixes" },
+      "grain": { "title": "Grain handling", "capacity": "Cleaning, drying, storage" }
+    },
+    "cta": "Request consultation now"
+  },
+  "references_page": {
+    "title": "References",
+    "intro": "Over 30 years of experience and projects in more than 50 countries — discover our international references.",
+    "filter_all": "All",
+    "filter_europe": "Europe",
+    "filter_asia": "Asia",
+    "filter_middle_east": "Middle East",
+    "capacity": "Capacity",
+    "plant_type": "Plant type",
+    "location": "Location"
+  },
+  "contact_page": {
+    "title": "Contact",
+    "form_title": "Send message",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "subjects": {
+      "consultation": "Consultation / Quote",
+      "products": "Products",
+      "service": "Service / Maintenance",
+      "career": "Careers",
+      "other": "Other"
+    },
+    "submit": "Send message",
+    "required": "Required field",
+    "invalid_email": "Invalid email address",
+    "company_info": "Company details",
+    "international_title": "International locations"
+  },
+  "downloads_page": {
+    "title": "Downloads",
+    "search": "Search…",
+    "categories": {
+      "datasheets": "Product data sheets",
+      "brochures": "Brochures",
+      "certificates": "Certificates"
+    },
+    "download": "Download",
+    "type_pdf": "PDF",
+    "items": [
+      { "title": "Complete catalogue feed mills", "category": "brochures", "size": "4.2 MB" },
+      { "title": "Pellet presses CLM series", "category": "datasheets", "size": "1.1 MB" },
+      { "title": "Silo plants & dryers", "category": "datasheets", "size": "890 KB" },
+      { "title": "Control systems overview", "category": "datasheets", "size": "720 KB" },
+      { "title": "Company brochure EN", "category": "brochures", "size": "3.5 MB" },
+      { "title": "ISO 9001 certificate", "category": "certificates", "size": "256 KB" }
+    ]
+  },
+  "career_page": {
+    "title": "Careers",
+    "intro": "At Wagner Feedmill you work in an international environment with flat hierarchies at our Lastrup site. We offer varied projects, training and an experienced team.",
+    "benefits": ["International projects", "Location Lastrup, Germany", "Flat hierarchies", "Training opportunities"],
+    "open_positions": "Open positions",
+    "full_time": "Full-time",
+    "part_time": "Part-time",
+    "jobs": [
+      { "title": "Project Engineer (m/f/d)", "department": "Engineering", "location": "Lastrup", "type": "full_time" },
+      { "title": "International Service Technician (m/f/d)", "department": "Service", "location": "Lastrup / worldwide", "type": "full_time" },
+      { "title": "Mechatronics Apprentice (m/f/d)", "department": "Production", "location": "Lastrup", "type": "full_time" }
+    ],
+    "initiative_title": "No suitable position?",
+    "initiative_text": "We welcome your speculative application.",
+    "apply": "Apply now"
+  },
+  "legal": {
+    "imprint_title": "Imprint",
+    "imprint_content": "Information pursuant to Sect. 5 German Telemedia Act (TMG)\n\nWagner Feedmill and Silo Plants GmbH\nSchnelter Straße 42, 49688 Lastrup\n\nCommercial Register: HRB213269\nRegistration court: Amtsgericht Oldenburg\n\nRepresented by:\nAlexander Wagner\n\nContact\n\nPhone: 04471 / 70 16 568\nTelefax: 04471 / 70 16 569\nE-mail: contact@wagner-feedmill.de\n\nVAT ID\n\nSales tax identification number according to Sect. 27 a of the Sales Tax Law:\nDE 318621850\n\nPerson responsible for editorial\n\nAlexander Wagner\nSchnelter Straße 42, 49688 Lastrup",
+    "privacy_title": "Privacy Policy",
+    "privacy_content": "1. Controller\nWagner Feedmill & Silo Plants GmbH, Haßkamp 7, 49688 Lastrup.\n\n2. Collection and storage of personal data\nWhen visiting our website, technical access data is processed. Contact form data is used only to handle your inquiry.\n\n3. Cookies\nWe use technically necessary cookies. Analytics cookies are set only with your consent.\n\n4. Your rights\nYou have the right to access, rectification, erasure and objection under GDPR.\n\n5. Contact\ncontact@wagner-feedmill.de"
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "read_more": "Read more",
+    "technical_specs": "Technical specifications",
+    "spec_feature": "Feature",
+    "spec_value": "Value"
+  }
+}

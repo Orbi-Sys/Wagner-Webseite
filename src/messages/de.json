@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "home": {
+      "title": "Wagner Feedmill – Mischfutterwerke, Siloanlagen & Einzelmaschinen | Made in Germany",
+      "description": "Internationale Projektierung und Lieferung von Mischfutterwerken, Siloanlagen und Einzelmaschinen. Kapazitäten 0,5–100 t/h. Industrie & Landwirtschaft. Jetzt Beratung anfragen."
+    },
+    "products": {
+      "title": "Produkte – Mischfutterwerke, Siloanlagen, Pelletpressen | Wagner Feedmill",
+      "description": "Entdecken Sie unser vollständiges Produktportfolio: Siloanlagen, Hammermühlen, Pelletpressen, Extruder, Steuerungssysteme und mehr. Kapazitäten bis 100 t/h."
+    },
+    "planning": {
+      "title": "Projektierung & Planung – CAD-Konstruktion | Wagner Feedmill",
+      "description": "Individuelle CAD-Planung, Konzepterstellung und internationale Lieferung von Mischfutterwerken und Siloanlagen. Von der Bedarfsanalyse bis zur Inbetriebnahme."
+    },
+    "references": {
+      "title": "Referenzen weltweit – Wagner Feedmill",
+      "description": "Erfolgreiche Projekte in über 50 Ländern. Mischfutterwerke und Siloanlagen für Industrie und Landwirtschaft weltweit."
+    },
+    "contact": {
+      "title": "Kontakt – Wagner Feedmill & Silo Plants GmbH | Lastrup, Deutschland",
+      "description": "Nehmen Sie Kontakt auf: Haßkamp 7, 49688 Lastrup. Tel: +49 4471 70 16 568. Internationale Standorte in Kasachstan, Polen, Rumänien, Bulgarien und den VAE."
+    },
+    "downloads": {
+      "title": "Downloads – Produktdatenblätter & Broschüren | Wagner Feedmill",
+      "description": "Produktdatenblätter, Broschüren und Zertifikate zum Download."
+    },
+    "career": {
+      "title": "Karriere – Jobs bei Wagner Feedmill | Lastrup",
+      "description": "Werden Sie Teil unseres Teams. Offene Stellen und Initiativbewerbungen willkommen."
+    },
+    "imprint": {
+      "title": "Impressum | Wagner Feedmill",
+      "description": "Impressum der Wagner Feedmill & Silo Plants GmbH."
+    },
+    "privacy": {
+      "title": "Datenschutz | Wagner Feedmill",
+      "description": "Datenschutzerklärung der Wagner Feedmill & Silo Plants GmbH."
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "planning": "Projektierung & Planung",
+    "products": "Produkte",
+    "references": "Referenzen",
+    "contact": "Kontakt",
+    "downloads": "Downloads",
+    "career": "Karriere",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "hero": {
+    "title": "Projektierung und Lieferung von Mischfutterwerken, Siloanlagen und Einzelmaschinen",
+    "subtitle": "Made in Germany — Weltweit im Einsatz",
+    "cta_primary": "Beratung vereinbaren",
+    "cta_secondary": "Produkte ansehen"
+  },
+  "trust": {
+    "years_value": "30+",
+    "years": "Jahre Erfahrung",
+    "countries_value": "50+",
+    "countries": "Länder weltweit",
+    "capacity_value": "100",
+    "capacity": "t/h Kapazität",
+    "origin_value": "✓",
+    "origin": "Made in Germany"
+  },
+  "about": {
+    "title": "Über Wagner Feedmill",
+    "text": "Wagner Feedmill ist ein Spezialist auf dem Gebiet der Entwicklung, Produktion und Installation von Anlagen zur Herstellung von Futtermitteln. Modernste CAD-Konstruktion, qualifizierte Mitarbeiter und leistungsstarke Produktionsanlagen garantieren beste Qualität. Unsere Lösungen richten sich an Industrie (20–100 t/h) und Landwirtschaft (0,5–20 t/h) sowie Premix- und Grainhandling-Sparten.",
+    "cta": "Mehr über uns erfahren"
+  },
+  "products_section": {
+    "title": "Unsere Produkte & Leistungen",
+    "learn_more": "Mehr erfahren"
+  },
+  "products": {
+    "annahme-reinigung": {
+      "title": "Annahme & Reinigungssystem",
+      "description": "Reinigungssysteme zur Entfernung von Fremdkörpern aus Schüttgütern. Zuverlässige Aufbereitung vor der Weiterverarbeitung.",
+      "long": "Unsere Annahme- und Reinigungssysteme entfernen zuverlässig Fremdkörper aus Schüttgütern und sichern eine gleichbleibende Rohstoffqualität für Ihre Futtermittelproduktion."
+    },
+    "siloanlagen": {
+      "title": "Siloanlagen & Getreidetrockner",
+      "description": "Trockner für Getreide, Mais und Reis mit langer Lebensdauer und gleichmäßigem Trocknungsvorgang.",
+      "long": "Siloanlagen und Getreidetrockner von Wagner Feedmill bieten lange Lebensdauer, gleichmäßigen Trocknungsvorgang und sichere Lagerung für Getreide, Mais und Reis."
+    },
+    "foerdertechnik": {
+      "title": "Fördertechnik",
+      "description": "Trogkettenförderer und Becherelevatoren für waagerechten und senkrechten Schüttguttransport.",
+      "long": "Mit Trogkettenförderern und Becherelevatoren realisieren wir effizienten waagerechten und senkrechten Transport von Schüttgütern in Ihrer Anlage."
+    },
+    "mahl-misch": {
+      "title": "Mahl- & Mischanlagen",
+      "description": "Hammermühlen und Horizontalmischer mit Mischgenauigkeit bis 1:100.000.",
+      "long": "Hammermühlen für Getreide und Granulate sowie Horizontalmischer mit Mischgenauigkeit von 1:100.000 für höchste Produktqualität."
+    },
+    "premix": {
+      "title": "Premixanlagen",
+      "description": "Dosierung von Mikrokomponenten mit präziser Waagengenauigkeit.",
+      "long": "Premixanlagen dosieren Mikrokomponenten mit höchster Waagengenauigkeit für Konzentrate und Vormischungen."
+    },
+    "pelletierung": {
+      "title": "Pelletiersysteme",
+      "description": "Pelletpressen von 200 kg/h bis über 45 t/h aus Mehlmischungen.",
+      "long": "Pelletpressen von 200 kg/h bis ≥ 45 t/h wandeln Mehlmischungen in hochwertige Pellets für Industrie und Landwirtschaft."
+    },
+    "extrusion": {
+      "title": "Extrusion",
+      "description": "Extruder zur Umwandlung von Getreidefutter in Heimtier- und Fischfutter.",
+      "long": "Extruder wandeln Getreidefutter in spezialisiertes Heimtier- und Fischfutter mit definierter Struktur und Qualität."
+    },
+    "steuerung": {
+      "title": "Steuerungssysteme",
+      "description": "Vollautomatisierung, Fernsteuerung und redundanter Backup-Server.",
+      "long": "Steuerungssysteme mit Vollautomatisierung, Fernsteuerung und zweitem Backup-Server für maximale Betriebssicherheit."
+    },
+    "futterwagen": {
+      "title": "Futterwagen & Mobile Anlagen",
+      "description": "Traktorbetriebene Mahl- und Mischanlagen direkt im Lager.",
+      "long": "Mobile Mahl- und Mischanlagen und Futterwagen ermöglichen flexible, traktorbetriebene Verarbeitung direkt im Lager."
+    },
+    "silos": {
+      "title": "Silos",
+      "description": "Lagerung von Produkten vor der Weiterverarbeitung in robusten Silosystemen.",
+      "long": "Silos für sichere Lagerung von Rohstoffen und Zwischenprodukten vor der Weiterverarbeitung in Ihrer Anlage."
+    },
+    "absackanlagen": {
+      "title": "Absackanlagen",
+      "description": "Absackung von 1–50 kg Säcken, bis 600 Säcke pro Stunde.",
+      "long": "Absackanlagen für Säcke von 1–50 kg mit Kapazitäten bis 600 Säcke pro Stunde für effiziente Endverpackung."
+    }
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Hinter jedem Projekt steht ein erfahrenes Team aus Ingenieuren, Planern und Spezialisten.",
+    "members": [
+      { "name": "Hans Wagner", "position": "Geschäftsführung", "bio": "Über 30 Jahre Erfahrung in der Futtermitteltechnik." },
+      { "name": "Michael Schmidt", "position": "Projektleitung / Engineering", "bio": "Spezialist für CAD-Planung und internationale Projekte." },
+      { "name": "Anna Müller", "position": "Vertrieb International", "bio": "Ansprechpartnerin für Märkte in Europa und Asien." },
+      { "name": "Thomas Becker", "position": "Produktion & Qualität", "bio": "Verantwortlich für Fertigung und Qualitätssicherung." },
+      { "name": "Lisa Hoffmann", "position": "Service & Inbetriebnahme", "bio": "Support vor Ort weltweit bei Montage und Schulung." }
+    ]
+  },
+  "references_section": {
+    "title": "Referenzen weltweit",
+    "view_all": "Alle Referenzen ansehen",
+    "items": [
+      { "country": "Deutschland", "name": "Industrie-Mischfutterwerk", "type": "40 t/h", "imageAlt": "Referenzprojekt Deutschland Mischfutterwerk" },
+      { "country": "Kasachstan", "name": "Siloanlage & Trockner", "type": "Getreidehandling", "imageAlt": "Referenzprojekt Kasachstan Siloanlage" },
+      { "country": "Polen", "name": "Landwirtschaftliche Anlage", "type": "8 t/h", "imageAlt": "Referenzprojekt Polen Futtermittelanlage" }
+    ]
+  },
+  "cta_banner": {
+    "title": "Bereit für Ihr nächstes Projekt?",
+    "subtitle": "Sprechen Sie mit unseren Experten — kostenlos und unverbindlich.",
+    "button": "Jetzt Beratung vereinbaren"
+  },
+  "footer": {
+    "about": "Wagner Feedmill & Silo Plants GmbH — Spezialist für Mischfutterwerke, Siloanlagen und Einzelmaschinen. Made in Germany, weltweit im Einsatz.",
+    "headquarters": "Hauptsitz DE",
+    "international": "Internationale Standorte",
+    "copyright": "© {year} Wagner Feedmill & Silo Plants GmbH. Alle Rechte vorbehalten.",
+    "locations": {
+      "kazakhstan": { "country": "KASACHSTAN", "company": "TOO Techagrokomplekt", "city": "Astana", "phone": "+7 701 305 5504", "email": "techagro@inbox.ru" },
+      "belarus": { "country": "BELARUS", "company": "Advisence", "city": "Minsk", "phone": "+375 29 633 21 04", "email": "wagner_feedmill@mail.ru" },
+      "poland": { "country": "POLEN", "company": "RUTHENIA ALBA Sp. z o.o.", "city": "Warszawa", "phone": "+48 571 513 741", "email": "contact@ruthenia-alba.com" },
+      "romania": { "country": "RUMÄNIEN", "company": "Smart Agro Grain", "city": "Timis", "phone": "+40 738 136 171", "email": "ro@wagner-feedmill.de" },
+      "bulgaria": { "country": "BULGARIEN", "company": "Farm Solution", "city": "Sofia", "phone": "+359 897 80 48 80", "email": "contact@wagner-feedmill.de" },
+      "uae": { "country": "VAE", "company": "Commerce Impulse", "city": "Sharjah", "phone": "+971 50 132 1815", "email": "contact@wagner-feedmill.de" }
+    }
+  },
+  "cookie": {
+    "text": "Diese Website verwendet Cookies, um Ihnen die bestmögliche Nutzung zu ermöglichen. Weitere Informationen finden Sie in unserer Datenschutzerklärung.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "breadcrumb": {
+    "home": "Startseite"
+  },
+  "planning_page": {
+    "title": "Projektierung & Planung",
+    "hero_title": "Von der Idee zur fertigen Anlage",
+    "intro": "Mit modernster CAD-Konstruktion, individueller Planung und internationaler Lieferung begleiten wir Ihr Projekt von der ersten Beratung bis zur Inbetriebnahme — und darüber hinaus.",
+    "steps": [
+      { "title": "Bedarfsanalyse & Beratung", "desc": "Gemeinsame Klärung Ihrer Anforderungen und Kapazitäten." },
+      { "title": "CAD-Planung & Konzepterstellung", "desc": "Detaillierte 3D-Planung und Layout Ihrer Anlage." },
+      { "title": "Angebotserstellung", "desc": "Transparentes Angebot mit klarer Leistungsbeschreibung." },
+      { "title": "Produktion & Qualitätssicherung", "desc": "Fertigung in Deutschland mit strenger QS." },
+      { "title": "Lieferung & Montage", "desc": "Weltweite Lieferung und Montage vor Ort." },
+      { "title": "Inbetriebnahme & Schulung", "desc": "Einweisung Ihres Teams durch unsere Spezialisten." },
+      { "title": "Wartung & Service", "desc": "Langfristiger Support und Ersatzteile." }
+    ],
+    "segments": {
+      "industry": { "title": "Industrie", "capacity": "Kapazität 20–100 t/h" },
+      "agriculture": { "title": "Landwirtschaft", "capacity": "Kapazität 0,5–20 t/h" },
+      "premix": { "title": "Premix", "capacity": "Konzentrate und Vormischungen" },
+      "grain": { "title": "Grainhandling", "capacity": "Reinigung, Trocknung, Lagerung" }
+    },
+    "cta": "Jetzt Beratung anfragen"
+  },
+  "references_page": {
+    "title": "Referenzen",
+    "intro": "Über 30 Jahre Erfahrung und Projekte in mehr als 50 Ländern — entdecken Sie unsere internationalen Referenzen.",
+    "filter_all": "Alle",
+    "filter_europe": "Europa",
+    "filter_asia": "Asien",
+    "filter_middle_east": "Naher Osten",
+    "capacity": "Kapazität",
+    "plant_type": "Anlagentyp",
+    "location": "Standort"
+  },
+  "contact_page": {
+    "title": "Kontakt",
+    "form_title": "Nachricht senden",
+    "name": "Name",
+    "company": "Firma",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "subjects": {
+      "consultation": "Beratung / Angebot",
+      "products": "Produkte",
+      "service": "Service / Wartung",
+      "career": "Karriere",
+      "other": "Sonstiges"
+    },
+    "submit": "Nachricht senden",
+    "required": "Pflichtfeld",
+    "invalid_email": "Ungültige E-Mail-Adresse",
+    "company_info": "Firmendaten",
+    "international_title": "Internationale Standorte"
+  },
+  "downloads_page": {
+    "title": "Downloads",
+    "search": "Suchen…",
+    "categories": {
+      "datasheets": "Produktdatenblätter",
+      "brochures": "Broschüren",
+      "certificates": "Zertifikate"
+    },
+    "download": "Download",
+    "type_pdf": "PDF",
+    "items": [
+      { "title": "Gesamtkatalog Mischfutterwerke", "category": "brochures", "size": "4,2 MB" },
+      { "title": "Pelletpressen CLM-Serie", "category": "datasheets", "size": "1,1 MB" },
+      { "title": "Siloanlagen & Trockner", "category": "datasheets", "size": "890 KB" },
+      { "title": "Steuerungssysteme Übersicht", "category": "datasheets", "size": "720 KB" },
+      { "title": "Unternehmensbroschüre EN", "category": "brochures", "size": "3,5 MB" },
+      { "title": "ISO 9001 Zertifikat", "category": "certificates", "size": "256 KB" }
+    ]
+  },
+  "career_page": {
+    "title": "Karriere",
+    "intro": "Bei Wagner Feedmill arbeiten Sie in einem internationalen Umfeld mit flachen Hierarchien am Standort Lastrup. Wir bieten abwechslungsreiche Projekte, Weiterbildung und ein erfahrenes Team.",
+    "benefits": ["Internationale Projekte", "Standort Lastrup, Deutschland", "Flache Hierarchien", "Weiterbildungsmöglichkeiten"],
+    "open_positions": "Offene Stellen",
+    "full_time": "Vollzeit",
+    "part_time": "Teilzeit",
+    "jobs": [
+      { "title": "Projektingenieur (m/w/d)", "department": "Engineering", "location": "Lastrup", "type": "full_time" },
+      { "title": "Servicetechniker International (m/w/d)", "department": "Service", "location": "Lastrup / weltweit", "type": "full_time" },
+      { "title": "Auszubildender Mechatroniker (m/w/d)", "department": "Produktion", "location": "Lastrup", "type": "full_time" }
+    ],
+    "initiative_title": "Keine passende Stelle?",
+    "initiative_text": "Wir freuen uns auf deine Initiativbewerbung.",
+    "apply": "Jetzt bewerben"
+  },
+  "legal": {
+    "imprint_title": "Impressum",
+    "imprint_content": "Angaben gemäß § 5 TMG\n\nWagner Feedmill and Silo Plants GmbH\nHaßkamp 7, 49688 Lastrup\n\nHandelsregister: HRB213269\nRegistergericht: Amtsgericht Oldenburg\n\nVertreten durch:\nAlexander Wagner\n\nKontakt\n\nTelefon: 04471 / 70 16 568\nTelefax: 04471 / 70 16 569\nE-Mail: contact@wagner-feedmill.de\n\nUmsatzsteuer-ID\n\nUmsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\nDE 318621850\n\nRedaktionell verantwortlich\n\nAlexander Wagner\nSchnelter Straße 42, 49688 Lastrup",
+    "privacy_title": "Datenschutzerklärung",
+    "privacy_content": "1. Verantwortlicher\nWagner Feedmill & Silo Plants GmbH, Haßkamp 7, 49688 Lastrup.\n\n2. Erhebung und Speicherung personenbezogener Daten\nBeim Besuch unserer Website werden technische Zugriffsdaten verarbeitet. Kontaktformulardaten werden nur zur Bearbeitung Ihrer Anfrage verwendet.\n\n3. Cookies\nWir verwenden technisch notwendige Cookies. Analyse-Cookies werden nur mit Ihrer Einwilligung gesetzt.\n\n4. Ihre Rechte\nSie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch gemäß DSGVO.\n\n5. Kontakt\ncontact@wagner-feedmill.de"
+  },
+  "common": {
+    "learn_more": "Mehr erfahren",
+    "read_more": "Mehr erfahren",
+    "technical_specs": "Technische Eckdaten",
+    "spec_feature": "Merkmal",
+    "spec_value": "Wert"
+  }
+}

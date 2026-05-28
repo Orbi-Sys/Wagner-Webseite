@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0d5770;
+  --color-secondary: #378a9d;
+  --color-accent: #73c3d6;
+  --color-white: #ffffff;
+  --color-light-bg: #f4f8fa;
+  --color-text-dark: #1a1a1a;
+  --color-text-muted: #5a6a72;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text-dark);
+  background: var(--color-white);
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-24 lg:px-12;
+  }
+}

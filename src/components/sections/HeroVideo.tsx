@@ -1,20 +1,42 @@
-'use client';
+"use client";
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
+import { useEffect, useRef } from 'react';
 
 export function HeroVideo() {
   const t = useTranslations('hero');
   const shouldReduceMotion = useReducedMotion();
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    // Ensure the video is muted at the element level (some browsers
+    // require the property to be set programmatically for autoplay).
+    try {
+      v.muted = true;
+      // Attempt to play; browsers will reject if autoplay is disallowed.
+      const p = v.play();
+      if (p && typeof p.catch === 'function') p.catch(() => {});
+    } catch (e) {
+      // ignore
+    }
+  }, []);
 
   return (
     <section className="relative min-h-[70vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden">
       <video
+        ref={videoRef}
         autoPlay
         muted
         loop
         playsInline
+        // iOS-specific attribute to allow inline playback (added via spread to satisfy TS)
+        {...{'webkit-playsinline': ''}}
+        // avoid unnecessary download on mobile; metadata is enough for poster
+        preload="metadata"
         poster="/images/Projektierung.webp"
         className="absolute inset-0 w-full h-full object-cover"
         aria-label={t('title')}

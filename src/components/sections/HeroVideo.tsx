@@ -3,13 +3,12 @@
 import { motion, useReducedMotion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 export function HeroVideo() {
   const t = useTranslations('hero');
   const shouldReduceMotion = useReducedMotion();
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const [showOverlay, setShowOverlay] = useState(false);
 
   useEffect(() => {
     const v = videoRef.current;
@@ -18,34 +17,65 @@ export function HeroVideo() {
     // require the property to be set programmatically for autoplay).
     try {
       v.muted = true;
-      // Attempt to play; browsers will reject if autoplay is disallowed.
+      const attemptPlay = () => {
+        try {
+          const p = v.play();
+          if (p && typeof p.catch === 'function') {
+            p.catch(() => {});
+          }
+        } catch (err) {
+          // ignore
+        }
+      };
+
+      // First attempt
       const p = v.play();
       if (p && typeof p.then === 'function') {
-        p.then(() => {
-          // playing succeeded
-          setShowOverlay(false);
-        }).catch(() => {
-          // autoplay blocked — show overlay for user to start playback
-          setShowOverlay(true);
-        });
+        p.then(() => {}).catch(() => {});
       }
-      // Also double-check after a short delay in case the promise resolves
-      // but playback doesn't start immediately.
-      setTimeout(() => {
-        if (v.paused) setShowOverlay(true);
-      }, 300);
+
+      // Retry a few times in case resources finish loading later
+      let retries = 0;
+      const maxRetries = 6;
+      const interval = setInterval(() => {
+        if (!v.paused) {
+          clearInterval(interval);
+          return;
+        }
+        if (retries >= maxRetries) {
+          clearInterval(interval);
+          return;
+        }
+        attemptPlay();
+        retries += 1;
+      }, 1000);
+
+      const visibilityHandler = () => {
+        if (document.visibilityState === 'visible') attemptPlay();
+      };
+
+      // Some browsers allow autoplay after a user touch anywhere; attach a
+      // passive listener to use that gesture silently for starting playback.
+      const touchHandler = () => {
+        attemptPlay();
+        window.removeEventListener('touchstart', touchHandler);
+      };
+
+      document.addEventListener('visibilitychange', visibilityHandler);
+      window.addEventListener('touchstart', touchHandler, { passive: true });
+
+      // cleanup
+      return () => {
+        clearInterval(interval);
+        document.removeEventListener('visibilitychange', visibilityHandler);
+        window.removeEventListener('touchstart', touchHandler);
+      };
     } catch (e) {
       // ignore
     }
   }, []);
 
-  const handleOverlayPlay = () => {
-    const v = videoRef.current;
-    if (!v) return;
-    v.muted = true;
-    v.play().catch(() => {});
-    setShowOverlay(false);
-  };
+  // No overlay play handler — autoplay is attempted automatically.
 
   return (
     <section className="relative min-h-[70vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden">
@@ -66,18 +96,7 @@ export function HeroVideo() {
       >
         <source src="/video/feedmill-converted.mp4" type="video/mp4" />
       </video>
-      {showOverlay && (
-        <button
-          onClick={handleOverlayPlay}
-          aria-label="Play video"
-          className="absolute inset-0 z-20 flex items-center justify-center bg-black/50"
-        >
-          <svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
-            <circle cx="44" cy="44" r="44" fill="#ffffff" fillOpacity="0.08" />
-            <path d="M34 30v28l26-14L34 30z" fill="#fff" />
-          </svg>
-        </button>
-      )}
+      {/* No play overlay: rely on autoplay (muted + playsinline) and retries */}
       <div
         className="absolute inset-0 bg-black/45"
         aria-hidden="true"
